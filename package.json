@@ -1,10 +1,10 @@
 {
-  "name": "jexl",
-  "version": "2.3.0",
+  "name": "@fabulous/fabulous-jexl",
+  "version": "3.0.0",
   "description": "Javascript Expression Language: Powerful context-based expression parser and evaluator",
-  "main": "dist/Jexl.js",
+  "main": "lib/index.js",
   "files": [
-    "dist"
+    "lib"
   ],
   "scripts": {
     "format": "prettier --write '**/*.{json,js,md}'",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/TomFrost/jexl"
+    "url": "https://github.com/thefabulous/fabulous-jexl"
   },
   "keywords": [
     "JSON",
@@ -30,11 +30,12 @@
     "selector"
   ],
   "author": "Tom Shawver <tom@frosteddesign.com>",
+  "forkedFrom": [
+    "https://github.com/TomFrost/Jexl",
+    "https://github.com/digifi-io/Jexl"
+  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TomFrost/jexl/issues"
-  },
-  "homepage": "https://github.com/TomFrost/jexl",
+  "homepage": "https://github.com/thefabulous/fabulous-jexl",
   "eslintIgnore": [
     "node_modules",
     "coverage"

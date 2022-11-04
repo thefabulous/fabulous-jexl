@@ -1,4 +1,4 @@
-# Jexl [![Build Status](https://travis-ci.org/TomFrost/Jexl.svg?branch=master)](https://travis-ci.org/TomFrost/Jexl)
+# fabulous-jexl
 
 Javascript Expression Language: Powerful context-based expression parser and evaluator
 
